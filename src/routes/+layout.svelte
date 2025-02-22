@@ -6,6 +6,7 @@
 	var path = $state($page.url.pathname)
     let menu = $derived([
         {felirat: "Kezdőoldal", link: "/"},
+        {felirat: "Eszközök", link: "/tools"},
         {   felirat: user?.id ? "Kijelentkezés": "Bejelentkezés / Regisztráció", 
             link: "/demo/lucia"
         }
